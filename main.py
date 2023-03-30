@@ -62,8 +62,7 @@ def yesNoQuestion(question):
     elif response.lower() == "n" or response.lower() == "no":
         return False
     else:
-        print
-        response + " is not an option please try again. "
+        print(response + " is not an option please try again. ")
         yesNoQuestion(question)
 
 
